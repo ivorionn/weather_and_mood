@@ -7,17 +7,25 @@ these factors have good or bad effects on my mood. There will also be an extreme
 
 # Description Of Dataset
 
-- **Date:** Information to track the continuity.
-- **Weather:** Weather information that will be tracked throughout the day from OpenWeather API.
+- **Date:** Information to track the specific day to ensure accurate chronological analysis.
+- **Weather Condition:** Weather data such as temperature, precipitation, cloud coverage, gathered using the OpenWeatherMap API.
 - **Out:** Information of whether i went out or did not.
 - **Time Spent Out:** The data of time that i have spent outside in minutes.
 - **Time Spent in Nature:** The data of time that i have spent in nature in minutes.
 - **Mood:** My overall mood at that day.
-- **Inconsistency:** The information of whether there was an unnatural event that affected my mood besides the weather factor. This is collected to reduce the biased data.
+- **Inconsistency:** Indicates whether there was an unnatural event that affected my mood besides the weather conditions. This is collected to reduce the biased data.
 
 # Plan
 ## Data Collection
-- Data will be collected starting at 10th of March until 10th of April under these conditions:
-  - Spending enough time for each circumstance to get precise results.
-  - 
-  - 
+- **Duration:** Data will be collected between 10th of March and 10th of April under these conditions:
+- **Tools:**
+  - **Weather Data:** Will be collected using OpenWeatherMap API.
+  - **Mood Tracking:** I will manually input by myself.
+  - **Time Tracking:** Duration will be calculated automatically with a clock.
+  - **Data Management:** Data will be systematically organized and stored, facilitating easy access and analysis.
+- **Data Recording:** Data will be consistently logged immediately after events to minimize biases and ensure accuracy.
+- **Data Management:** Data will be systematically organized and stored, facilitating easy access and analysis.
+## Data Preparation and Analysis
+- Verify completeness and consistency of the collected data.
+- Deduce the inconsistent days to have an unbiased data.
+- Conduct exploratory data analysis to identify trends and reach to a conclusion.
